@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Chahat's Portfolio",
-  description: "Modern & Minimal Portfolio",
+  description: "AI & Data Science Engineer Portfolio showcasing machine learning and web development projects.",
 };
 
 export default function RootLayout({
@@ -19,7 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        {}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
